@@ -1,0 +1,24 @@
+# Build artifacts
+build/
+*.o
+*.bin
+*.iso
+*.img
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.map
+*.sym
+
+# Temporary files
+tmp/
+temp/
