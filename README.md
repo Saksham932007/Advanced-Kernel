@@ -85,6 +85,16 @@ The kernel is structured in a modular way:
 - **Interrupts**: Exception and interrupt handling
 - **Shell**: User interface and command processing
 
+## Project Motivation
+This kernel was built to move beyond bootstrapping and explore how core operating system subsystems interact in a real execution environment. The goal was to understand interrupt handling, memory management, and device drivers as an integrated system, rather than as isolated components.
+
+## Limitations
+
+- Single-core only
+- No user-mode separation yet
+- No filesystem support
+- No SMP or preemptive multitasking
+
 ## Contributing
 
 1. Fork the repository
